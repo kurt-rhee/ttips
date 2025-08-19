@@ -1,0 +1,858 @@
+[
+  {
+    "command": ":h[elp] keyword",
+    "description": "open help for keyword"
+  },
+  {
+    "command": ":sav[eas] file",
+    "description": "save file as"
+  },
+  {
+    "command": ":clo[se]",
+    "description": "close current pane"
+  },
+  {
+    "command": ":ter[minal]",
+    "description": "open a terminal window"
+  },
+  {
+    "command": "K",
+    "description": "open man page for word under the cursor"
+  },
+  {
+    "command": "h",
+    "description": "move cursor left"
+  },
+  {
+    "command": "j",
+    "description": "move cursor down"
+  },
+  {
+    "command": "k",
+    "description": "move cursor up"
+  },
+  {
+    "command": "l",
+    "description": "move cursor right"
+  },
+  {
+    "command": "gj",
+    "description": "move cursor down (multi-line text)"
+  },
+  {
+    "command": "gk",
+    "description": "move cursor up (multi-line text)"
+  },
+  {
+    "command": "H",
+    "description": "move to top of screen"
+  },
+  {
+    "command": "M",
+    "description": "move to middle of screen"
+  },
+  {
+    "command": "L",
+    "description": "move to bottom of screen"
+  },
+  {
+    "command": "w",
+    "description": "jump forwards to the start of a word"
+  },
+  {
+    "command": "W",
+    "description": "jump forwards to the start of a word (words can contain punctuation)"
+  },
+  {
+    "command": "e",
+    "description": "jump forwards to the end of a word"
+  },
+  {
+    "command": "E",
+    "description": "jump forwards to the end of a word (words can contain punctuation)"
+  },
+  {
+    "command": "b",
+    "description": "jump backwards to the start of a word"
+  },
+  {
+    "command": "B",
+    "description": "jump backwards to the start of a word (words can contain punctuation)"
+  },
+  {
+    "command": "ge",
+    "description": "jump backwards to the end of a word"
+  },
+  {
+    "command": "gE",
+    "description": "jump backwards to the end of a word (words can contain punctuation)"
+  },
+  {
+    "command": "%",
+    "description": "move cursor to matching character (default supported pairs: '()', '{}', '[]' - use :h matchpairs in vim for more info)"
+  },
+  {
+    "command": "0",
+    "description": "jump to the start of the line"
+  },
+  {
+    "command": "^",
+    "description": "jump to the first non-blank character of the line"
+  },
+  {
+    "command": "$",
+    "description": "jump to the end of the line"
+  },
+  {
+    "command": "g_",
+    "description": "jump to the last non-blank character of the line"
+  },
+  {
+    "command": "gg",
+    "description": "go to the first line of the document"
+  },
+  {
+    "command": "G",
+    "description": "go to the last line of the document"
+  },
+  {
+    "command": "5gg or 5G",
+    "description": "go to line 5"
+  },
+  {
+    "command": "gd",
+    "description": "move to local declaration"
+  },
+  {
+    "command": "gD",
+    "description": "move to global declaration"
+  },
+  {
+    "command": "fx",
+    "description": "jump to next occurrence of character x"
+  },
+  {
+    "command": "tx",
+    "description": "jump to before next occurrence of character x"
+  },
+  {
+    "command": "Fx",
+    "description": "jump to the previous occurrence of character x"
+  },
+  {
+    "command": "Tx",
+    "description": "jump to after previous occurrence of character x"
+  },
+  {
+    "command": ";",
+    "description": "repeat previous f, t, F or T movement"
+  },
+  {
+    "command": ",",
+    "description": "repeat previous f, t, F or T movement, backwards"
+  },
+  {
+    "command": "}",
+    "description": "jump to next paragraph (or function/block, when editing code)"
+  },
+  {
+    "command": "{",
+    "description": "jump to previous paragraph (or function/block, when editing code)"
+  },
+  {
+    "command": "zz",
+    "description": "center cursor on screen"
+  },
+  {
+    "command": "zt",
+    "description": "position cursor on top of the screen"
+  },
+  {
+    "command": "zb",
+    "description": "position cursor on bottom of the screen"
+  },
+  {
+    "command": "Ctrl + e",
+    "description": "move screen down one line (without moving cursor)"
+  },
+  {
+    "command": "Ctrl + y",
+    "description": "move screen up one line (without moving cursor)"
+  },
+  {
+    "command": "Ctrl + b",
+    "description": "move screen up one page (cursor to last line)"
+  },
+  {
+    "command": "Ctrl + f",
+    "description": "move screen down one page (cursor to first line)"
+  },
+  {
+    "command": "Ctrl + d",
+    "description": "move cursor and screen down 1/2 page"
+  },
+  {
+    "command": "Ctrl + u",
+    "description": "move cursor and screen up 1/2 page"
+  },
+  {
+    "command": "i",
+    "description": "insert before the cursor"
+  },
+  {
+    "command": "I",
+    "description": "insert at the beginning of the line"
+  },
+  {
+    "command": "a",
+    "description": "insert (append) after the cursor"
+  },
+  {
+    "command": "A",
+    "description": "insert (append) at the end of the line"
+  },
+  {
+    "command": "o",
+    "description": "append (open) a new line below the current line"
+  },
+  {
+    "command": "O",
+    "description": "append (open) a new line above the current line"
+  },
+  {
+    "command": "ea",
+    "description": "insert (append) at the end of the word"
+  },
+  {
+    "command": "Ctrl + h",
+    "description": "delete the character before the cursor during insert mode"
+  },
+  {
+    "command": "Ctrl + w",
+    "description": "delete word before the cursor during insert mode"
+  },
+  {
+    "command": "Ctrl + j",
+    "description": "add a line break at the cursor position during insert mode"
+  },
+  {
+    "command": "Ctrl + t",
+    "description": "indent (move right) line one shiftwidth during insert mode"
+  },
+  {
+    "command": "Ctrl + d",
+    "description": "de-indent (move left) line one shiftwidth during insert mode"
+  },
+  {
+    "command": "Ctrl + n",
+    "description": "insert (auto-complete) next match before the cursor during insert mode"
+  },
+  {
+    "command": "Ctrl + p",
+    "description": "insert (auto-complete) previous match before the cursor during insert mode"
+  },
+  {
+    "command": "Ctrl + rx",
+    "description": "insert the contents of register x"
+  },
+  {
+    "command": "Ctrl + ox",
+    "description": "Temporarily enter normal mode to issue one normal-mode command x."
+  },
+  {
+    "command": "Esc or Ctrl + c",
+    "description": "exit insert mode"
+  },
+  {
+    "command": "r",
+    "description": "replace a single character."
+  },
+  {
+    "command": "R",
+    "description": "replace more than one character, until ESC is pressed."
+  },
+  {
+    "command": "J",
+    "description": "join line below to the current one with one space in between"
+  },
+  {
+    "command": "gJ",
+    "description": "join line below to the current one without space in between"
+  },
+  {
+    "command": "gwip",
+    "description": "reflow paragraph"
+  },
+  {
+    "command": "g~",
+    "description": "switch case up to motion"
+  },
+  {
+    "command": "gu",
+    "description": "change to lowercase up to motion"
+  },
+  {
+    "command": "gU",
+    "description": "change to uppercase up to motion"
+  },
+  {
+    "command": "cc",
+    "description": "change (replace) entire line"
+  },
+  {
+    "command": "c$ or C",
+    "description": "change (replace) to the end of the line"
+  },
+  {
+    "command": "ciw",
+    "description": "change (replace) entire word"
+  },
+  {
+    "command": "cw or ce",
+    "description": "change (replace) to the end of the word"
+  },
+  {
+    "command": "s",
+    "description": "delete character and substitute text (same as cl)"
+  },
+  {
+    "command": "S",
+    "description": "delete line and substitute text (same as cc)"
+  },
+  {
+    "command": "xp",
+    "description": "transpose two letters (delete and paste)"
+  },
+  {
+    "command": "u",
+    "description": "undo"
+  },
+  {
+    "command": "U",
+    "description": "restore (undo) last changed line"
+  },
+  {
+    "command": "Ctrl + r",
+    "description": "redo"
+  },
+  {
+    "command": ".",
+    "description": "repeat last command"
+  },
+  {
+    "command": "v",
+    "description": "start visual mode, mark lines, then do a command (like y-yank)"
+  },
+  {
+    "command": "V",
+    "description": "start linewise visual mode"
+  },
+  {
+    "command": "o",
+    "description": "move to other end of marked area"
+  },
+  {
+    "command": "Ctrl + v",
+    "description": "start visual block mode"
+  },
+  {
+    "command": "O",
+    "description": "move to other corner of block"
+  },
+  {
+    "command": "aw",
+    "description": "mark a word"
+  },
+  {
+    "command": "ab",
+    "description": "a block with ()"
+  },
+  {
+    "command": "aB",
+    "description": "a block with {}"
+  },
+  {
+    "command": "at",
+    "description": "a block with <> tags"
+  },
+  {
+    "command": "ib",
+    "description": "inner block with ()"
+  },
+  {
+    "command": "iB",
+    "description": "inner block with {}"
+  },
+  {
+    "command": "it",
+    "description": "inner block with <> tags"
+  },
+  {
+    "command": "Esc or Ctrl + c",
+    "description": "exit visual mode"
+  },
+  {
+    "command": ">",
+    "description": "shift text right"
+  },
+  {
+    "command": "<",
+    "description": "shift text left"
+  },
+  {
+    "command": "y",
+    "description": "yank (copy) marked text"
+  },
+  {
+    "command": "d",
+    "description": "delete marked text"
+  },
+  {
+    "command": "~",
+    "description": "switch case"
+  },
+  {
+    "command": "u",
+    "description": "change marked text to lowercase"
+  },
+  {
+    "command": "U",
+    "description": "change marked text to uppercase"
+  },
+  {
+    "command": ":reg[isters]",
+    "description": "show registers content"
+  },
+  {
+    "command": "\"xy",
+    "description": "yank into register x"
+  },
+  {
+    "command": "\"xp",
+    "description": "paste contents of register x"
+  },
+  {
+    "command": "\"+y",
+    "description": "yank into the system clipboard register"
+  },
+  {
+    "command": "\"+p",
+    "description": "paste from the system clipboard register"
+  },
+  {
+    "command": ":marks",
+    "description": "list of marks"
+  },
+  {
+    "command": "ma",
+    "description": "set current position for mark A"
+  },
+  {
+    "command": "`a",
+    "description": "jump to position of mark A"
+  },
+  {
+    "command": "y`a",
+    "description": "yank text to position of mark A"
+  },
+  {
+    "command": "`0",
+    "description": "go to the position where Vim was previously exited"
+  },
+  {
+    "command": "`\"",
+    "description": "go to the position when last editing this file"
+  },
+  {
+    "command": "`.",
+    "description": "go to the position of the last change in this file"
+  },
+  {
+    "command": "``",
+    "description": "go to the position before the last jump"
+  },
+  {
+    "command": ":ju[mps]",
+    "description": "list of jumps"
+  },
+  {
+    "command": "Ctrl + i",
+    "description": "go to newer position in jump list"
+  },
+  {
+    "command": "Ctrl + o",
+    "description": "go to older position in jump list"
+  },
+  {
+    "command": ":changes",
+    "description": "list of changes"
+  },
+  {
+    "command": "g,",
+    "description": "go to newer position in change list"
+  },
+  {
+    "command": "g;",
+    "description": "go to older position in change list"
+  },
+  {
+    "command": "Ctrl + ]",
+    "description": "jump to the tag under cursor"
+  },
+  {
+    "command": "qa",
+    "description": "record macro a"
+  },
+  {
+    "command": "q",
+    "description": "stop recording macro"
+  },
+  {
+    "command": "@a",
+    "description": "run macro a"
+  },
+  {
+    "command": "@@",
+    "description": "rerun last run macro"
+  },
+  {
+    "command": "yy",
+    "description": "yank (copy) a line"
+  },
+  {
+    "command": "2yy",
+    "description": "yank (copy) 2 lines"
+  },
+  {
+    "command": "yw",
+    "description": "yank (copy) the characters of the word from the cursor position to the start of the next word"
+  },
+  {
+    "command": "yiw",
+    "description": "yank (copy) word under the cursor"
+  },
+  {
+    "command": "yaw",
+    "description": "yank (copy) word under the cursor and the space after or before it"
+  },
+  {
+    "command": "y$ or Y",
+    "description": "yank (copy) to end of line"
+  },
+  {
+    "command": "p",
+    "description": "put (paste) the clipboard after cursor"
+  },
+  {
+    "command": "P",
+    "description": "put (paste) before cursor"
+  },
+  {
+    "command": "gp",
+    "description": "put (paste) the clipboard after cursor and leave cursor after the new text"
+  },
+  {
+    "command": "gP",
+    "description": "put (paste) before cursor and leave cursor after the new text"
+  },
+  {
+    "command": "dd",
+    "description": "delete (cut) a line"
+  },
+  {
+    "command": "2dd",
+    "description": "delete (cut) 2 lines"
+  },
+  {
+    "command": "dw",
+    "description": "delete (cut) the characters of the word from the cursor position to the start of the next word"
+  },
+  {
+    "command": "diw",
+    "description": "delete (cut) word under the cursor"
+  },
+  {
+    "command": "daw",
+    "description": "delete (cut) word under the cursor and the space after or before it"
+  },
+  {
+    "command": ":3,5d",
+    "description": "delete lines starting from 3 to 5"
+  },
+  {
+    "command": ">>",
+    "description": "indent (move right) line one shiftwidth"
+  },
+  {
+    "command": "<<",
+    "description": "de-indent (move left) line one shiftwidth"
+  },
+  {
+    "command": ">%",
+    "description": "indent a block with () or {} (cursor on brace)"
+  },
+  {
+    "command": "<%",
+    "description": "de-indent a block with () or {} (cursor on brace)"
+  },
+  {
+    "command": ">ib",
+    "description": "indent inner block with ()"
+  },
+  {
+    "command": ">at",
+    "description": "indent a block with <> tags"
+  },
+  {
+    "command": "3==",
+    "description": "re-indent 3 lines"
+  },
+  {
+    "command": "=%",
+    "description": "re-indent a block with () or {} (cursor on brace)"
+  },
+  {
+    "command": "=iB",
+    "description": "re-indent inner block with {}"
+  },
+  {
+    "command": "gg=G",
+    "description": "re-indent entire buffer"
+  },
+  {
+    "command": "]p",
+    "description": "paste and adjust indent to current line"
+  },
+  {
+    "command": ":w",
+    "description": "write (save) the file, but don't exit"
+  },
+  {
+    "command": ":w !sudo tee %",
+    "description": "write out the current file using sudo"
+  },
+  {
+    "command": ":wq or :x or ZZ",
+    "description": "write (save) and quit"
+  },
+  {
+    "command": ":q",
+    "description": "quit (fails if there are unsaved changes)"
+  },
+  {
+    "command": ":q! or ZQ",
+    "description": "quit and throw away unsaved changes"
+  },
+  {
+    "command": ":wqa",
+    "description": "write (save) and quit on all tabs"
+  },
+  {
+    "command": "/pattern",
+    "description": "search for pattern"
+  },
+  {
+    "command": "?pattern",
+    "description": "search backward for pattern"
+  },
+  {
+    "command": "\\vpattern",
+    "description": "'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)"
+  },
+  {
+    "command": "n",
+    "description": "repeat search in same direction"
+  },
+  {
+    "command": "N",
+    "description": "repeat search in opposite direction"
+  },
+  {
+    "command": ":noh[lsearch]",
+    "description": "remove highlighting of search matches"
+  },
+  {
+    "command": "Ctrl + wT",
+    "description": "move the current split window into its own tab"
+  },
+  {
+    "command": "gt or :tabn[ext]",
+    "description": "move to the next tab"
+  },
+  {
+    "command": "gT or :tabp[revious]",
+    "description": "move to the previous tab"
+  },
+  {
+    "command": "#gt",
+    "description": "move to tab number #"
+  },
+  {
+    "command": ":tabm[ove] #",
+    "description": "move current tab to the #th position (indexed from 0)"
+  },
+  {
+    "command": ":tabc[lose]",
+    "description": "close the current tab and all its windows"
+  },
+  {
+    "command": ":tabo[nly]",
+    "description": "close all tabs except for the current one"
+  },
+  {
+    "command": ":tabdo command",
+    "description": "run the command on all tabs (e.g. :tabdo q - closes all opened tabs)"
+  },
+  {
+    "command": ":e[dit] file",
+    "description": "edit a file in a new buffer"
+  },
+  {
+    "command": ":bd[elete]",
+    "description": "delete a buffer (close a file)"
+  },
+  {
+    "command": ":b[uffer]#",
+    "description": "go to a buffer by index #"
+  },
+  {
+    "command": ":b[uffer] file",
+    "description": "go to a buffer by file"
+  },
+  {
+    "command": ":ls or :buffers",
+    "description": "list all open buffers"
+  },
+  {
+    "command": ":sp[lit] file",
+    "description": "open a file in a new buffer and split window"
+  },
+  {
+    "command": ":vs[plit] file",
+    "description": "open a file in a new buffer and vertically split window"
+  },
+  {
+    "command": ":vert[ical] ba[ll]",
+    "description": "edit all buffers as vertical windows"
+  },
+  {
+    "command": ":tab ba[ll]",
+    "description": "edit all buffers as tabs"
+  },
+  {
+    "command": "Ctrl + ws",
+    "description": "split window"
+  },
+  {
+    "command": "Ctrl + wv",
+    "description": "split window vertically"
+  },
+  {
+    "command": "Ctrl + ww",
+    "description": "switch windows"
+  },
+  {
+    "command": "Ctrl + wq",
+    "description": "quit a window"
+  },
+  {
+    "command": "Ctrl + wx",
+    "description": "exchange current window with next one"
+  },
+  {
+    "command": "Ctrl + w=",
+    "description": "make all windows equal height & width"
+  },
+  {
+    "command": "Ctrl + wh",
+    "description": "move cursor to the left window (vertical split)"
+  },
+  {
+    "command": "Ctrl + wl",
+    "description": "move cursor to the right window (vertical split)"
+  },
+  {
+    "command": "Ctrl + wj",
+    "description": "move cursor to the window below (horizontal split)"
+  },
+  {
+    "command": "Ctrl + wk",
+    "description": "move cursor to the window above (horizontal split)"
+  },
+  {
+    "command": "Ctrl + wH",
+    "description": "make current window full height at far left (leftmost vertical window)"
+  },
+  {
+    "command": "Ctrl + wL",
+    "description": "make current window full height at far right (rightmost vertical window)"
+  },
+  {
+    "command": "Ctrl + wJ",
+    "description": "make current window full width at the very bottom (bottommost horizontal window)"
+  },
+  {
+    "command": "Ctrl + wK",
+    "description": "make current window full width at the very top (topmost horizontal window)"
+  },
+  {
+    "command": "zf",
+    "description": "manually define a fold up to motion"
+  },
+  {
+    "command": "zd",
+    "description": "delete fold under the cursor"
+  },
+  {
+    "command": "za",
+    "description": "toggle fold under the cursor"
+  },
+  {
+    "command": "zo",
+    "description": "open fold under the cursor"
+  },
+  {
+    "command": "zc",
+    "description": "close fold under the cursor"
+  },
+  {
+    "command": "zr",
+    "description": "reduce (open) all folds by one level"
+  },
+  {
+    "command": "zm",
+    "description": "fold more (close) all folds by one level"
+  },
+  {
+    "command": "zi",
+    "description": "toggle folding functionality"
+  },
+  {
+    "command": "]c",
+    "description": "jump to start of next change"
+  },
+  {
+    "command": "[c",
+    "description": "jump to start of previous change"
+  },
+  {
+    "command": "do or :diffg[et]",
+    "description": "obtain (get) difference (from other buffer)"
+  },
+  {
+    "command": "dp or :diffpu[t]",
+    "description": "put difference (to other buffer)"
+  },
+  {
+    "command": ":diffthis",
+    "description": "make current window part of diff"
+  },
+  {
+    "command": ":dif[fupdate]",
+    "description": "update differences"
+  },
+  {
+    "command": ":diffo[ff]",
+    "description": "switch off diff mode for current window"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "command": "안녕하세요",
+    "description": "Hello"
+  },
+  {
+    "command": "감사합니다",
+    "description": "Thank you"
+  },
+  {
+    "command": "죄송합니다",
+    "description": "I'm sorry"
+  },
+  {
+    "command": "네",
+    "description": "Yes"
+  },
+  {
+    "command": "아니요",
+    "description": "No"
+  },
+  {
+    "command": "사랑해요",
+    "description": "I love you"
+  },
+  {
+    "command": "주세요",
+    "description": "Please give me"
+  },
+  {
+    "command": "얼마예요?",
+    "description": "How much is it?"
+  },
+  {
+    "command": "맛있어요",
+    "description": "It's delicious"
+  },
+  {
+    "command": "도와주세요",
+    "description": "Please help me"
+  }
+]
