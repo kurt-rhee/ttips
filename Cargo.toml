@@ -2,6 +2,9 @@
 name = "ttip"
 version = "0.1.0"
 edition = "2021"
+description = "A tip of the day in the CLI.  So far we have Vim, and Korean"
+license-file = "LICENSE"
+homepage = "https://github.com/kurt/ttips"
 
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
